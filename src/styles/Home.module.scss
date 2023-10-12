@@ -1,0 +1,26 @@
+// The root object of the site, including header and footer
+.root {
+  display: flex;
+  justify-content: flex-start;
+  max-height: 100vh;
+  min-height: 100vh;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+// The root object of Layout
+.main {
+  display: flex;
+  margin: 1rem;
+  width: 100%;
+  height: inherit;
+
+  ul {
+    margin: 0;
+    padding: 0 0 0 1.5rem;
+  }
+
+  li {
+    padding: 0.25rem 0;
+  }
+}

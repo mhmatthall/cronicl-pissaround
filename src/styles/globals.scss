@@ -1,0 +1,38 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+  overflow-x: hidden;
+
+  background-color: #ffffff;
+  color: #000000;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+p,
+li,
+hr {
+  margin: 0;
+  padding: 0;
+}
+
+p,
+li {
+  line-height: 150%;
+}
+
+input,
+hr {
+  background: none;
+  border: none;
+  outline: none;
+  font: inherit;
+  padding: 0;
+}
