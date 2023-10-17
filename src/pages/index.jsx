@@ -1,4 +1,5 @@
 import styles from "@/styles/Home.module.scss";
+import 'maplibre-gl/dist/maplibre-gl.css';
 import Head from "next/head";
 import Map from "react-map-gl/maplibre";
 
